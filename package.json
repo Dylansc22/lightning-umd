@@ -1,0 +1,11 @@
+{
+  "name": "lightning-app",
+  "version": "1.0.0",
+  "description": "A web-map platform for visualizing lightning strike data across the globe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Scott",
+  "license": "MIT"
+}

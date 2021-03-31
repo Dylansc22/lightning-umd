@@ -2,13 +2,18 @@
   "name": "lightning-app",
   "version": "1.0.0",
   "description": "A web-map platform for visualizing lightning strike data across the globe.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "serve": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dylan Scott",
   "license": "MIT",
   "dependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
   }
 }
